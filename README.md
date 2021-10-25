@@ -66,17 +66,32 @@ This project utilizes the [NYC-Taxi dataset](https://www1.nyc.gov/site/tlc/about
 
 ## Getting Started
 ---
-### Installation Guide
+### Installation Guides (Refer to Docs included)
 
 [Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads) - Offical website for Anaconda Installations (using Linux)
+ - Install via conda or pip requirments.txt
 
 [Hadoop](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation) - Official Docs for Psuedo Distribted/Standalone Setup (Includes installation for Java and ssh setup)
+ - Install Java
+ - Configure Java environment
+   - Set JAVA_HOME
+ - Install ssh and setup passphraseless ssh
+ - Install Hadoop from offical supported links
+ - Configure Hadoop environment:
+   - Set HADOOP_HOME, PATH
+   - Define JAVA_HOME in hadoop-env.sh
 
-[Spark](https://spark.apache.org/docs/latest/api/python/getting_started/install.html) - Official Docs for installation via pip, conda or build from source
+[Spark](https://spark.apache.org/docs/latest/api/python/getting_started/install.html) - Official Docs for Installation
+ - Install via pip (Spark for Hadoop 3.2+)
+ ```bash
+$ PYSPARK_HADOOP_VERSION=3.2 pip install pyspark
+ ```
 
 [CUDA Toolkit](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) - Offical NVIDIA Docs for Insallation
+- Requires NVIDIA developer account
 
 [RAPIDS Accelerator for Spark](https://nvidia.github.io/spark-rapids/docs/get-started/getting-started-on-prem.html) - Official Docs/Repo for spark-rapids
-
+- Create directory for Spark plugins
+- Download discovery script and jar files
 --------------------------------
 
