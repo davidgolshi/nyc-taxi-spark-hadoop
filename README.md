@@ -11,7 +11,7 @@
    - Included Files
 
 ## About This Project
----
+
 ### Introduction
 
 This project aims to provide a demo of "big data" analytics and processing/engineering by establishing the environment for processing and analysis using relevant data processing methods/libraries. Please feel free to provide any feedback, any help and or guidance on more relevant/appropriate methods will always be appreciated! Let's get started.
@@ -23,7 +23,7 @@ What exactly is "big data"? We can refer to [Wikipedia](https://en.wikipedia.org
 To elaborte further on this definition, I would like to add a more tangible understanding of the issue with large datasets. Resulting from many discussions with my mentors and experiences:
 
 >Large datasets are too large to fit in the memory of the system or too complex to process on the system causing impractically long times for processing/analysis. 
----
+
 ### Frameworks & Libraries
 This project was done on a system running [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop) with a [compatible GPU](https://developer.nvidia.com/cuda-gpus) for GPU utilization.
  - [Anaconda/Miniconda](https://www.anaconda.com/) 
@@ -62,7 +62,7 @@ This project utilizes the [NYC-Taxi dataset](https://www1.nyc.gov/site/tlc/about
 |Total_amount         |The total amount charged to passengers. Does not include cash tips. |
 
 ## Getting Started
----
+
 ### Installation Guides (Refer to Docs included)
 
 [Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads) - Offical website for Anaconda Installations (using Linux)
