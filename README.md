@@ -7,8 +7,7 @@
    - Frameworks & Libraries
    - Dataset
 2. Getting Started
-   - Prequisites
-   - Installation
+   - Installation Guides
 3. Liscense
 4. Contact
 5. Acknowledgements
