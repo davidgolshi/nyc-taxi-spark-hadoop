@@ -1,7 +1,6 @@
 # NYC Taxi Big Data Project
-
 ## Table of Contents
----
+
 1. About This Project
    - Introduction
    - Frameworks & Libraries
