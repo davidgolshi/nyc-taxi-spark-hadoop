@@ -8,9 +8,7 @@
    - Dataset
 2. Getting Started
    - Installation Guides
-3. Liscense
-4. Contact
-5. Acknowledgements
+   - Included Files
 
 ## About This Project
 ---
@@ -82,6 +80,10 @@ conda create -n <environment_name> python=3.8
  - Configure Hadoop environment:
    - Set HADOOP_HOME, PATH
    - Define JAVA_HOME in hadoop-env.sh
+- Start Hadoop file system
+```bash
+$ start-dfs.sh
+```
 
 [Spark](https://spark.apache.org/docs/latest/api/python/getting_started/install.html) - Official Docs for Installation
  - Install via pip (Spark for Hadoop 3.2+)
@@ -95,5 +97,15 @@ $ PYSPARK_HADOOP_VERSION=3.2 pip install pyspark
 [RAPIDS Accelerator for Spark](https://nvidia.github.io/spark-rapids/docs/get-started/getting-started-on-prem.html) - Official Docs/Repo for spark-rapids
 - Create directory for Spark plugins
 - Download discovery script and jar files
---------------------------------
 
+### Included Files
+----
+GetData.ipynb 
+- Notebook to download data from source 
+- Transform data 
+- Put to hdfs
+
+NYC_Spark.ipynb 
+- Initialize and configure Spark session source
+- Load data into Spark
+- Data Prep & Analysis 
