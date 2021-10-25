@@ -35,7 +35,7 @@ This project was done on a system running [Ubuntu 20.04 LTS](https://ubuntu.com/
  - [Spark/PySpark 3.1.2](https://spark.apache.org/)
  - [RAPIDS Accelerator for Apache Spark](https://nvidia.github.io/spark-rapids/)
  - [CUDA 11.2](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
- - NVIDIA Driver Version 490
+ - NVIDIA Driver Version: 490
  - [Java 11 (OpenJDK)](https://openjdk.java.net/)
 
 This project will be done as an on-prem implementation. It's likely these projects/environenments are deployed on cloud for execution on multiple clusters. For example Amazon's or Google's big data platforms [AWS EMR](https://aws.amazon.com/emr/) & [GCP Dataproc](https://cloud.google.com/dataproc).
@@ -66,9 +66,9 @@ This project utilizes the [NYC-Taxi dataset](https://www1.nyc.gov/site/tlc/about
 
 ## Getting Started
 ---
-### Installation Guides
+### Installation Guide
 
-[Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads)
+[Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads) - Offical website for Anaconda Installations (using Linux)
 
 [Hadoop](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation) - Official Docs for Psuedo Distribted/Standalone Setup (Includes installation for Java and ssh setup)
 
