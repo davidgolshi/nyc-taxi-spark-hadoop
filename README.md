@@ -69,7 +69,10 @@ This project utilizes the [NYC-Taxi dataset](https://www1.nyc.gov/site/tlc/about
 ### Installation Guides (Refer to Docs included)
 
 [Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads) - Offical website for Anaconda Installations (using Linux)
- - Install via conda or pip requirments.txt
+ - Create environment using Python 3.8
+ ```bash
+conda create -n <environment_name> python=3.8
+ ```
 
 [Hadoop](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation) - Official Docs for Psuedo Distribted/Standalone Setup (Includes installation for Java and ssh setup)
  - Install Java
