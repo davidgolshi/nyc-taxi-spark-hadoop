@@ -30,8 +30,8 @@ This project was done on a system running [Ubuntu 20.04 LTS](https://ubuntu.com/
  - [Hadoop 3.3.1](https://hadoop.apache.org/)
  - [Spark/PySpark 3.1.2](https://spark.apache.org/)
  - [RAPIDS Accelerator for Apache Spark](https://nvidia.github.io/spark-rapids/)
- - [CUDA 11.2](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
- - NVIDIA Driver Version: 490
+ - [CUDA 11.5](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
+ - NVIDIA Driver Version: 495
  - [Java 11 (OpenJDK)](https://openjdk.java.net/)
 
 This project will be done as an on-prem implementation. It's likely these projects/environenments are deployed on cloud for execution on multiple clusters. For example Amazon's or Google's big data platforms [AWS EMR](https://aws.amazon.com/emr/) & [GCP Dataproc](https://cloud.google.com/dataproc).
@@ -65,9 +65,9 @@ This project utilizes the [NYC-Taxi dataset](https://www1.nyc.gov/site/tlc/about
 ### Installation Guides (Refer to Docs included)
 
 [Anaconda/Miniconda](https://www.anaconda.com/products/individual#Downloads) - Offical website for Anaconda Installations (using Linux)
- - Create environment using Python 3.8
+ - Create environment using spec_file.txt
  ```bash
-conda create -n <environment_name> python=3.8
+$ conda create -n <environment_name> --file spec_file.txt
  ```
 
 [Hadoop](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html#Pseudo-Distributed_Operation) - Official Docs for Psuedo Distribted/Standalone Setup (Includes installation for Java and ssh setup)
@@ -107,4 +107,10 @@ GetData.ipynb
 NYC_Spark.ipynb 
 - Initialize and configure Spark session source
 - Load data into Spark
-- Data Prep & Analysis 
+- Data Prep & Analysis
+
+put_data.sh
+ - Put files into hdfs via bash
+
+spec_file.txt
+- File to clone conda environment (dependencies)
