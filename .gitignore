@@ -2,6 +2,7 @@
 *.csv
 *.env
 *.json
+*.vscode
 .ipynb_checkpoints
 
 data/
